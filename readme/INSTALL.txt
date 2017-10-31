@@ -1,0 +1,13 @@
+=================================
+Initialize
+=================================
+
+project rename
+--------------
+
+M-x find-dired
+Run find in directory: /path/to/dir/
+Run find (with args): -type f
+Shift + Q -> dired-do-query-replace-regexp
+
+$ stack clean && stack build && stack exec -- yesod devel
